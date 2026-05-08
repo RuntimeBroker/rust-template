@@ -1,2 +1,10 @@
 [template]
-exclude = ["cliff.toml"]
+cargo_generate_version = ">=0.18.0"
+exclude = [
+  "cliff.toml",
+  "CHANGELOG.md",
+  "assets/",
+]
+
+[placeholders]
+description = { prompt = "Project description", default = "A Rust project", type = "string" }

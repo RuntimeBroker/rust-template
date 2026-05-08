@@ -1,14 +1,10 @@
-# Rust Project Template
+# {{project-name}}
 
-A pre-configured Rust project template with CI/CD, linting, security auditing, and changelog generation.
+{% if description %}{{description}}{% else %}A Rust project bootstrapped from the rust-template.{% endif %}
 
 ## Quick Start
 
-```bash
-cargo generate RuntimeBroker/rust-template
-```
-
-Or use via GitHub template: click "Use this template" on the repo page.
+This project was generated from [rust-template](https://github.com/RuntimeBroker/rust-template).
 
 ## Included Tooling
 
